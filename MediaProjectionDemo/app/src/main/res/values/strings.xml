@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MediaProjectionDemo</string>
+    <string name="start" >开始</string>
+    <string name="stop">结束</string>
+</resources>
