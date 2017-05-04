@@ -22,7 +22,12 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * 使用Camera录制音视频到mp4.
+ * 使用SurfaceView展示摄像头时，APIlevel最低为 9
+ * 如果使用TextureView展示摄像头时，APIlevel最低为 14
+ * <p>
+ * mCamera.setDisplayOrientation(90);  显示转向设置
+ * <p>
+ * mMediaRecorder.setOrientationHint(270); 录制方向设置；即存文件的方向。
  */
 public class MediaRecorderActivity extends AppCompatActivity {
 

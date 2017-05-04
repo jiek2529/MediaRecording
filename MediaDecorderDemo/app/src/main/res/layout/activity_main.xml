@@ -34,13 +34,24 @@
             android:id="@+id/button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="6dp"
             android:onClick="click_mediaRecorder"
             android:text="MediaRecoder"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintLeft_toLeftOf="@+id/textView"
             app:layout_constraintRight_toRightOf="@+id/textView"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
+        <Button
+            android:id="@+id/liveCameraBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:onClick="click_livecamera"
+            android:text="LiveCamera"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="@+id/button"
+            app:layout_constraintRight_toRightOf="@+id/button"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
     </android.support.constraint.ConstraintLayout>
 
 </ScrollView>

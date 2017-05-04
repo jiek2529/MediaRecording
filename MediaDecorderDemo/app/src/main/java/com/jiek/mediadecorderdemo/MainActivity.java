@@ -16,11 +16,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    private void jump(Class<? extends Activity> mActivityClass) {
+        startActivity(new Intent(this, mActivityClass));
+    }
+
     public void click_mediaRecorder(View view) {
         jump(MediaRecorderActivity.class);
     }
 
-    private void jump(Class<? extends Activity> mActivityClass) {
-        startActivity(new Intent(this, mActivityClass));
+    public void click_livecamera(View view) {
+        jump(LiveCameraActivity.class);
     }
 }
