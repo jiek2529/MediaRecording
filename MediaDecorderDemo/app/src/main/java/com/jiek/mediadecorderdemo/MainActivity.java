@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.jiek.mediadecorderdemo.MediaRecorder.MediaRecorderActivity;
+import com.jiek.mediadecorderdemo.audio_video.AudioVideoRecordActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,5 +27,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void click_livecamera(View view) {
         jump(LiveCameraActivity.class);
+    }
+
+    public void click_AV_to_file(View view) {
+        jump(AudioVideoRecordActivity.class);
     }
 }

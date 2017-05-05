@@ -23,6 +23,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <!-- launchpad -->
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait">
@@ -32,13 +34,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <!-- 使用TextureView展示摄像头，并加旋转与切换摄像头 -->
         <activity
             android:name=".LiveCameraActivity"
             android:screenOrientation="portrait" />
+
         <!-- 使用MediaRecorder摄像头录制，带展示与 -->
         <activity
             android:name=".MediaRecorder.MediaRecorderActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 获取摄像头预览存到mp4文件 -->
+        <activity
+            android:name=".audio_video.AudioVideoRecordActivity"
             android:screenOrientation="portrait" />
     </application>
 
