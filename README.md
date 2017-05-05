@@ -7,3 +7,5 @@
 使用MediaRecord录制视频至mp4中。
 
 ##
+
+JiekFfmpeg 是运行ffmpeg的so 项目

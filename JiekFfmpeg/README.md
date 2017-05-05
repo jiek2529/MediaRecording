@@ -1,0 +1,1 @@
+ffmpeg_build_20170505.sh 是从官方下载的ffmpeg进行编译成so的脚本
