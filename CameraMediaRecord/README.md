@@ -1,3 +1,0 @@
-#CameraMediaRecord
-
-使用MediaRecord录制视频到mp4中。
