@@ -49,6 +49,7 @@
         <activity
             android:name=".audio_video.AudioVideoRecordActivity"
             android:screenOrientation="portrait" />
+        <activity android:name=".capture_photo.CapturePhotoActivity"></activity>
     </application>
 
 </manifest>

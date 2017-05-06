@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.jiek.mediadecorderdemo.MediaRecorder.MediaRecorderActivity;
 import com.jiek.mediadecorderdemo.audio_video.AudioVideoRecordActivity;
+import com.jiek.mediadecorderdemo.capture_photo.CapturePhotoActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,5 +32,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void click_AV_to_file(View view) {
         jump(AudioVideoRecordActivity.class);
+    }
+
+    public void click_capturePhoto(View view) {
+        jump(CapturePhotoActivity.class);
     }
 }
